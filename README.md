@@ -1,4 +1,4 @@
-Typing Speed Test
+<img width="1470" height="921" alt="Screenshot 2026-05-16 at 2 12 44 AM" src="https://github.com/user-attachments/assets/b3d35610-c12e-4fd1-8bf1-86544ba48add" />Typing Speed Test
 
 A modern and responsive Typing Speed Test Web Application built using HTML, CSS, and JavaScript.
 This project helps users improve their typing speed and accuracy with real-time performance tracking.
@@ -15,9 +15,9 @@ This project helps users improve their typing speed and accuracy with real-time 
 📱 Mobile-friendly design
 ✨ Interactive typing effects
 
-🛠️ Technologies Used
-HTML5
-CSS3
+🛠️ Technologies Used  -
+HTML5  ||
+CSS3   ||
 JavaScript (Vanilla JS)
 
 📂 Project Structure
@@ -29,9 +29,6 @@ Typing-Speed-Test/
 └── README.md
 📸 Preview
 
-Add your project screenshot here.
-
-Example:
 
 
 ⚙️ How It Works
