@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Typing Speed Test</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="overlay"></div>
+
+  <div class="content">
+
+    <h1>Typing Speed Test</h1>
+
+    <!-- MODE -->
+    <div class="mode-selection">
+
+      <button class="mode-btn active" id="timeLimitBtn">
+        Time Limit Mode
+      </button>
+
+      <button class="mode-btn" id="timerModeBtn">
+        Timer Mode
+      </button>
+
+    </div>
+
+    <!-- TIME OPTIONS -->
+
+    <div class="time-options" id="timeOptions">
+
+      <button class="time-btn active" data-time="30">
+        30s
+      </button>
+
+      <button class="time-btn" data-time="60">
+        60s
+      </button>
+
+      <button class="time-btn" data-time="120">
+        120s
+      </button>
+
+    </div>
+
+    <!-- STATS -->
+
+    <div class="stats">
+
+      <div class="stat-box">
+        <h2 id="timerLabel">Time Left</h2>
+        <p id="time">30</p>
+      </div>
+
+      <div class="stat-box">
+        <h2>WPM</h2>
+        <p id="wpm">0</p>
+      </div>
+
+      <div class="stat-box">
+        <h2>Accuracy</h2>
+        <p id="accuracy">100%</p>
+      </div>
+
+      <div class="stat-box">
+        <h2>Incorrect</h2>
+        <p id="incorrect">0</p>
+      </div>
+
+    </div>
+
+    <!-- QUOTE -->
+
+    <div class="quote-box" id="quote"></div>
+
+    <!-- INPUT -->
+
+    <input
+      type="text"
+      id="input"
+      class="input-box"
+      placeholder="Start typing..."
+      autocomplete="off"
+      autocorrect="off"
+      spellcheck="false"
+    />
+
+    <!-- RESTART -->
+
+    <div class="restart" id="restart">
+      &#8635;
+    </div>
+
+    <div class="result" id="result"></div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
